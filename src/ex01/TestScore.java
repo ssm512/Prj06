@@ -90,7 +90,7 @@ class Score {
 
 
 	// Method
-	static void		title () { // static의 의미
+	static void		title () { // static의 의미 // main에서 Score.title(); 치면 그냥 void title() {} 이면 오류가 발생함
 		String		title		=	"번호 이름 국어 영어 수학 총점 평균 등급";
 		System.out.println(title);
 		
